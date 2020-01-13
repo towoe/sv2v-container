@@ -1,4 +1,4 @@
-IMAGE_NAME ?= towoe/sv2v
+IMAGE_NAME ?= docker.io/towoe/sv2v
 BUILD_OPTS ?= --network host \
 	      --format docker
 CONTAINER_TOOL ?= podman
